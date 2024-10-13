@@ -1,12 +1,14 @@
-import 'semantic-ui-css/semantic.min.css'
 import Header from "./components/Header";
-import './App.css'
+import Navbar from "./components/Navbar";
+import Card from "./components/Card";
 
 function App() {
 
   return (
     <>
-      <Header />;
+      <Navbar />
+      <Header />
+      <Card />
     </>
   )
 }
