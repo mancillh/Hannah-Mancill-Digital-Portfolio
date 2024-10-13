@@ -1,4 +1,4 @@
-function JSXVariables() {
+function Header() {
     return (
         <div className="container">
           <div className="">
@@ -9,4 +9,4 @@ function JSXVariables() {
     );
   }
   
-  export default JSXVariables;
+  export default Header;
