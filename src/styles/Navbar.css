@@ -1,8 +1,9 @@
 .MyNameBig {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #55F;
+  color: aqua;
   font-weight: 900;
   font-size: 40px;
+  border-bottom: none;
 }
 
 .personal-navbar-styling a {
@@ -15,7 +16,7 @@
 } 
 
 .personal-navbar-styling a:hover {
-  color:  #55F;
+  color:  aqua;
 }
 
 .dropdown-menu {
@@ -29,6 +30,9 @@
 
 .dropdown-menu a:hover {
   background-color:  #212529;
-  color: #55F;
+  color: aqua;
 }
 
+Nav {
+  border-bottom: 4px #df016b solid;
+}

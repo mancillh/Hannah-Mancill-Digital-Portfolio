@@ -2,11 +2,10 @@ import '../styles/Header.css';
 
 function Header() {
     return (
-        <>
-            <h1>Hi! My name is Hannah Mancill</h1>
-            <h2>Full-Stack Web Developer</h2>
-        </>
+        <section>
+            <img className="main-image" src="../assets/pexels-jibarofoto-2471235.jpg" alt="abstract red and blue paint swirl"></img>
+        </section>
     );
-  }
-  
-  export default Header;
+}
+
+export default Header;
