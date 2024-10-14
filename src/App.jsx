@@ -1,14 +1,17 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+import NavbarSection from "./components/Navbar";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <NavbarSection />
       <Header />
       <Card />
+      <Footer />
     </>
   )
 }

@@ -20,14 +20,14 @@
 }
 
 .card .card-title{
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     margin-top: 10px;
     color: hsl(0, 0%, 20%);
 }
 
 .card .card-text{
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: hsl(0, 0%, 30%);
 }
 
@@ -36,7 +36,7 @@
 }
 
 .card .button {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: aqua;
     color: red;
     height: 40px;

@@ -1,13 +1,35 @@
-.navbar {
-    background: black;
-    height: 60px;
-  }
-  
-  .navbar a {
-    color: white;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin: 5px;
-    line-height: 3;
-  }
-  
+/* .nav-link{
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+nav {
+  background-color: black;
+}*/
+
+.personal a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+} 
+
+.personal a:hover {
+  color:  #55F;
+}
+
+/* .dropdown-menu {
+  background-color: black;
+} */
+
+.MyNameBig {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #55F;
+  font-weight: 900;
+  font-size: 40px;
+}
+
