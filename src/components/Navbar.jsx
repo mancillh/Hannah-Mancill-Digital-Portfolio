@@ -6,19 +6,15 @@ import '../styles/Navbar.css';
 
 function NavbarSection() {
   return (
-    <Navbar bg="dark" expand="lg" className="personal">
-      <Container fluid>
+    <Navbar collapseOnSelect bg="dark" expand="lg" className="personal-navbar-styling" variant="dark">
+      <Container>
         <Navbar className="MyNameBig">Hannah Mancill</Navbar>
-        <Navbar.Toggle aria-controls="navbarScroll"/>
-        <Navbar.Collapse id="navbarScroll" bg="light">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+        <Navbar.Collapse className="ml-auto" id="responsive-navbar-nav">
+          <Nav className="justify-content-end" style={{ width: "100%" }}>
             <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#About">About</Nav.Link>
-            <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
+            <NavDropdown title="Portfolio" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#FrontEnd">Front End Projects</NavDropdown.Item>
               <NavDropdown.Item href="#BackEnd">Back End Projects</NavDropdown.Item>
             </NavDropdown>

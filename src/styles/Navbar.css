@@ -1,35 +1,34 @@
-/* .nav-link{
-  font-family: Georgia, 'Times New Roman', Times, serif;  
-  background-color: black;
-  color: white;
-  height: 60px;
-}
-
-nav {
-  background-color: black;
-}*/
-
-.personal a {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
-  font-size: 1.3rem;
-  text-decoration: none;
-  margin: 5px;
-  line-height: 3;
-} 
-
-.personal a:hover {
-  color:  #55F;
-}
-
-/* .dropdown-menu {
-  background-color: black;
-} */
-
 .MyNameBig {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #55F;
   font-weight: 900;
   font-size: 40px;
+}
+
+.personal-navbar-styling a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(194, 192, 192);
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 2;
+} 
+
+.personal-navbar-styling a:hover {
+  color:  #55F;
+}
+
+.dropdown-menu {
+  background-color:  #212529;
+}
+
+.dropdown-menu a{
+  background-color:  #212529;
+  width:fit-content;
+}
+
+.dropdown-menu a:hover {
+  background-color:  #212529;
+  color: #55F;
 }
 
