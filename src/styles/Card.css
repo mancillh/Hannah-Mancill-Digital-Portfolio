@@ -1,15 +1,16 @@
 .card{
     border: 1px solid hsl(0, 0%, 80%);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
     padding: 20px;
-    margin: 10px;
+    margin: 30px;
     text-align: center;
     max-width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background-color: hsl(0, 0%, 80%);
 }
 
 .card .card-image{
@@ -17,34 +18,30 @@
     height: auto;
     border-radius: 10px;
     margin: auto;
+    border: 1px solid black;
 }
 
 .card .card-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     margin-top: 10px;
-    color: hsl(0, 0%, 20%);
-}
-
-.card .card-text{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: hsl(0, 0%, 30%);
 }
 
 .card:hover {
-    background-color: #55F;
+    background-color: #e90173;
+    border: black;
 }
 
 .card .button {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: aqua;
-    color: red;
+    background-color: hsl(0, 0%, 80%);
+    color: black;
     height: 40px;
-    width: 100px;
+    width: 200px;
     border-radius: 10px;
+    margin-top: 8px;
 }
 
 .card .button:hover {
-    background-color: white;
-    color: black;
+    background-color: aqua;
 }

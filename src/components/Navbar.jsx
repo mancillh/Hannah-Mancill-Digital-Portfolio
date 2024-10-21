@@ -1,7 +1,4 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../styles/Navbar.css';
 
 function NavbarSection() {
@@ -12,7 +9,6 @@ function NavbarSection() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse className="ml-auto" id="responsive-navbar-nav">
           <Nav className="justify-content-end" style={{ width: "100%" }}>
-            <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#About">About</Nav.Link>
             <NavDropdown title="Portfolio" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#FrontEnd">Front End Projects</NavDropdown.Item>

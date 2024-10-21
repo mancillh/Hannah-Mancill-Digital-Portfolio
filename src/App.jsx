@@ -2,16 +2,17 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import background from "./assets/pexels-jibarofoto-2471235.jpg";
 import NavbarSection from "./components/Navbar";
 import Card from "./components/Card";
-import Footer from "./components/Footer";
+import FooterSection from "./components/Footer";
+import CardContainer from './components/CardContainer';
 
 function App() {
 
   return (
     <>
-      <NavbarSection />
+      <NavbarSection/>
       <div style={{
         backgroundImage: `url(${background})`,
-        height: "80vh",
+        height: "95vh",
         marginTop: "-70px",
         fontSize: "50px",
         backgroundSize: "cover",
@@ -19,8 +20,9 @@ function App() {
         borderBottom: '4px #df016b solid',
       }}>
       </div>
+      <CardContainer/>
       <Card />
-      <Footer />
+      <FooterSection />
     </>
   )
 }

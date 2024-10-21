@@ -1,9 +1,33 @@
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+  }
+
 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding-top: 75px;
-    text-align: center;
     color: rgb(194, 192, 192);
     font-size: 20px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-  
+
+img {
+    height: 25px;
+    margin: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}

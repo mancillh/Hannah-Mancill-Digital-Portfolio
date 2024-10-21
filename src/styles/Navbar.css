@@ -1,9 +1,14 @@
 .MyNameBig {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: aqua;
+  color: #08a8f9;
   font-weight: 900;
   font-size: 40px;
   border-bottom: none;
+}
+
+.personal-navbar-styling {
+  position: sticky;
+  top:0;
 }
 
 .personal-navbar-styling a {
