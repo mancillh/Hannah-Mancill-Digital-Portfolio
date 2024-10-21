@@ -1,7 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import background from "./assets/pexels-jibarofoto-2471235.jpg";
 import NavbarSection from "./components/Navbar";
-import Card from "./components/Card";
+import WebsiteRefactor from "./components/WebsiteRefactor";
 import FooterSection from "./components/Footer";
 import CardContainer from './components/CardContainer';
 
@@ -21,7 +21,7 @@ function App() {
       }}>
       </div>
       <CardContainer/>
-      <Card />
+      <WebsiteRefactor />
       <FooterSection />
     </>
   )
