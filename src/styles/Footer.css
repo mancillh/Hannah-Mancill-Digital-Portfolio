@@ -4,6 +4,8 @@ footer {
     left: 0;
     right: 0;
     height: 30px;
+    width: 100%;
+    background-color: black;
   }
 
 h6 {
@@ -17,11 +19,13 @@ h6 {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 img {
     height: 25px;
     margin: 10px;
+    background-color: black;
 }
 
 .footer-links {
@@ -30,4 +34,5 @@ img {
     position: relative;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }

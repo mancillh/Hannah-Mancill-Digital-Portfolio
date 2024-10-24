@@ -1,9 +1,9 @@
-import '../styles/CardContainer.css';
+import '../styles/Container.css';
 
-function CardContainer() {
+function Container() {
     return (
-        <div className='card-container'/>   
+        <div className='container'/>   
     )
   }
   
-  export default CardContainer;
+  export default Container;

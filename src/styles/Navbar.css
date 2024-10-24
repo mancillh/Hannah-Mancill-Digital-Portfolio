@@ -4,11 +4,14 @@
   font-weight: 900;
   font-size: 40px;
   border-bottom: none;
+  background-color: black;
 }
 
 .personal-navbar-styling {
+  align-self: flex-start;
   position: sticky;
   top:0;
+  background-color: black;
 }
 
 .personal-navbar-styling a {
@@ -25,19 +28,20 @@
 }
 
 .dropdown-menu {
-  background-color:  #212529;
+  background-color:  black;
 }
 
 .dropdown-menu a{
-  background-color:  #212529;
+  background-color:  black;
   width:fit-content;
 }
 
 .dropdown-menu a:hover {
-  background-color:  #212529;
+  background-color:  black;
   color: aqua;
 }
 
 Nav {
   border-bottom: 4px #df016b solid;
+  background-color: black;
 }

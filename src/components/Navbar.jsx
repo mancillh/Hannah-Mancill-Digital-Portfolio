@@ -3,7 +3,7 @@ import '../styles/Navbar.css';
 
 function NavbarSection() {
   return (
-    <Navbar collapseOnSelect bg="dark" expand="lg" className="personal-navbar-styling" variant="dark">
+    <Navbar collapseOnSelect bg="black" expand="lg" className="personal-navbar-styling" variant="dark">
       <Container>
         <Navbar className="MyNameBig">Hannah Mancill</Navbar>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
