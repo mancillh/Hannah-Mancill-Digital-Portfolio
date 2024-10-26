@@ -1,9 +1,36 @@
-.about {
+/* This section is styling for most pages. Specific styling is lower on the page. */
+p {
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(194, 192, 192);
-    width: 100%;
-    display: flex;
-    position: relative;
+    margin: 20px;
+    font-size: 1.3rem;
+    text-wrap: wrap;
+   }
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(194, 192, 192);
+    font-size: xx-large;
+    margin: 20px;
+} 
+
+/* Specific Page Styling */
+
+/* About Page  */
+.aboutPhoto {
+  max-width: 190%;
+  margin-top: 30px;
+  margin-left:-40%;
 }
 
+@media only screen and (max-width: 993px) {
+    .aboutPhoto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: none;
+        margin-bottom: 30px;
+        margin-left:0;
+    }
+    }

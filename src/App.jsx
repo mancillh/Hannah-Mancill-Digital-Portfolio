@@ -1,6 +1,6 @@
 // Component Imports
 import { Outlet } from 'react-router-dom';
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 // Bootstrap Styles
@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
