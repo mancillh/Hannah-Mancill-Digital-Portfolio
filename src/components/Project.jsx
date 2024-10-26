@@ -1,7 +1,7 @@
-import '../styles/Card.css';
+import '../styles/Project.css';
 import PropTypes from 'prop-types';
 
-function Card(props) {
+function Project(props) {
     return (
         <div className="card">
             <a href={props.url}>
@@ -14,7 +14,7 @@ function Card(props) {
     );
   }
   
-  Card.propTypes = {
+Project.propTypes = {
     url: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,
     screenshotDescription: PropTypes.string.isRequired,
@@ -22,4 +22,4 @@ function Card(props) {
     githubRepo: PropTypes.string.isRequired,
   }
 
-  export default Card;
+  export default Project;

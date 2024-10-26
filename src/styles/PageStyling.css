@@ -1,4 +1,4 @@
-.container {
+.about {
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(194, 192, 192);
@@ -6,3 +6,4 @@
     display: flex;
     position: relative;
 }
+

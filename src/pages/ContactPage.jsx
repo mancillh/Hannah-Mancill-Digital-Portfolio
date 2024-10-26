@@ -1,7 +1,6 @@
 import '../styles/Contact.css';
 import Swal from 'sweetalert2'
 
-
 export default function Contact() {
 
     const onSubmit = async (event) => {
