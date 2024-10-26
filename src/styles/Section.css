@@ -1,0 +1,30 @@
+
+section {
+    background-color: black;
+    color:rgb(194, 192, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+section h2 {
+    background-color: black;
+    color: rgb(194, 192, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 20px 40px;
+  
+}
+
+section p {
+    background-color: black;
+    color: rgb(194, 192, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin: 20px 40px;
+}
+
+hr {
+    border: solid #46cfcd 2px;
+    margin:0;
+    padding: 0px 10px;
+}

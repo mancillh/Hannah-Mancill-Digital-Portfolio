@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../styles/Navbar.css';
 
-function NavbarSection() {
+function Navigation() {
   return (
     <Navbar collapseOnSelect bg="black" expand="lg" className="personal-navbar-styling" variant="dark">
       <Container>
@@ -25,4 +25,4 @@ function NavbarSection() {
   );
 }
 
-export default NavbarSection;
+export default Navigation;

@@ -25,10 +25,10 @@
     margin-top: 10px;
 }
 
-.card:hover {
+/* .card:hover {
     background-color: #e90173;
     border: black;
-}
+} */
 
 .card .button {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,6 +42,6 @@
 }
 
 .card .button:hover {
-    background-color: black;
-    color: hsl(0, 0%, 80%);
+    background-color: #e90173;
+    color: black;
 }
