@@ -12,8 +12,8 @@ export default function Navigation() {
             <Nav className="justify-content-end" style={{ width: "100%" }}>
               <Nav.Link href='./about'>About</Nav.Link>
               <NavDropdown title="Portfolio" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href='./front'>Front End Projects</NavDropdown.Item>
-                <NavDropdown.Item>Back End Projects</NavDropdown.Item>
+                <NavDropdown.Item href='./front-end'>Front End Projects</NavDropdown.Item>
+                <NavDropdown.Item href='./back-end'>Back End Projects</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="https://docs.google.com/document/d/1c8Zj0lmZjFcHxiXmcTRqB5VnD4KqDBy-SLIdxlB21s0/edit?usp=sharing">
                 Resume

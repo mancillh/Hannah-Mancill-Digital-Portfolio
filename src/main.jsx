@@ -6,7 +6,7 @@ import ErrorPage from './pages/ErrorPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import FrontEndWork from './pages/FrontEndWork.jsx';
-// import BackEndWork from './pages/BackEndWork.jsx';
+import BackEndWork from './pages/BackEndWork.jsx';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -28,13 +28,13 @@ const router = createBrowserRouter([
       element: <AboutPage />,
       },
       {
-        path: 'front',
+        path: 'front-end',
         element: <FrontEndWork />,
       },
-      // {
-      //   path: 'back-end',
-      //   element: <BackEndWork />,
-      // },
+      {
+        path: 'back-end',
+        element: <BackEndWork />,
+      },
     ],
   },
 ]);
