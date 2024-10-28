@@ -1,7 +1,7 @@
 import '../styles/Project.css';
 import PropTypes from 'prop-types';
 
-function Project(props) {
+export default function Project(props) {
     return (
         <div className="card">
             <a href={props.url}>
@@ -21,5 +21,3 @@ Project.propTypes = {
     projectName: PropTypes.string.isRequired,
     githubRepo: PropTypes.string.isRequired,
   }
-
-  export default Project;
