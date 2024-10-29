@@ -9,6 +9,7 @@
     align-items: center;
     position: relative;
     background-color: hsl(0, 0%, 80%);
+    height: 95%;
 }
 
 .card .card-image{
@@ -16,6 +17,7 @@
     height: auto;
     border-radius: 10px;
     margin: auto;
+    margin-bottom: 10px;
     border: 1px solid black;
 }
 

@@ -31,16 +31,17 @@
   color:  aqua;
 }
 
-.dropdown-menu {
-  background-color:  black;
-}
-
 .dropdown-menu a{
-  background-color:  black;
+  background-color: black;
   width:fit-content;
 }
 
 .dropdown-menu a:hover {
   background-color:  black;
   color: aqua;
+}
+
+div .dropdown-menu {
+  background-color:  black;
+  border: aqua solid;
 }

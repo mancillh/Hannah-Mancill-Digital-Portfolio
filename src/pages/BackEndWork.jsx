@@ -1,11 +1,12 @@
-import Project from "../components/Project";
-import { Row, Col } from 'react-bootstrap';
+// import Project from "../components/Project";
+// import { Row, Col } from 'react-bootstrap';
 
 export default function BackEndWork() {
 return (
         <>
             <h2>Back End Projects</h2>
-            <div className='container'>
+            <p>In development... Come back soon for back end projects</p>
+            {/* <div className='container'>
                 <Row>
                     <Col>
                         <Project
@@ -64,7 +65,7 @@ return (
                         />
                     </Col>
                 </Row>
-            </div >
+            </div > */}
         </>
     )
 }

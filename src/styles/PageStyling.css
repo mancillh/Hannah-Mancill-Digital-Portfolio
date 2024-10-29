@@ -6,7 +6,7 @@ p {
     margin: 20px;
     font-size: 1.3rem;
     text-wrap: wrap;
-   }
+}
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,15 +14,15 @@ h2 {
     font-size: xx-large;
     margin: 20px;
     margin-bottom: 0px;
-} 
+}
 
 /* Specific Page Styling */
 
 /* About Page  */
 .aboutPhoto {
-  max-width: 190%;
-  margin-top: 30px;
-  margin-left:-40%;
+    max-width: 190%;
+    margin-top: 30px;
+    margin-left: -40%;
 }
 
 @media only screen and (max-width: 993px) {
@@ -32,6 +32,6 @@ h2 {
         justify-content: center;
         max-width: none;
         margin-bottom: 30px;
-        margin-left:0;
+        margin-left: 0;
     }
-    }
+}
