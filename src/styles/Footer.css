@@ -1,3 +1,4 @@
+/* Styling for Footer */
 footer {
     position: relative;
     bottom: 0;
@@ -28,6 +29,7 @@ footer img {
     background-color: black;
 }
 
+/* GitHub and LinkedIn Links */
 .footer-links {
     display: flex;
     flex-direction: row;

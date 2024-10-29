@@ -1,6 +1,8 @@
+// Styles for Navbar (Bootstrap styles first, then custom CSS styling)
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../styles/Navigation.css';
 
+// Renders Navbar Component
 export default function Navigation() {
   return (
     <>

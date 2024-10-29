@@ -1,6 +1,9 @@
+// Styles for Project cards
 import '../styles/Project.css';
+// Necessary to avoid eslint error, allows prop validation
 import PropTypes from 'prop-types';
 
+// Renders Project Card Component
 export default function Project(props) {
     return (
         <div className="card">
@@ -13,7 +16,8 @@ export default function Project(props) {
         </div>
     );
   }
-  
+
+// Data validation - explains what type is needed for each prop
 Project.propTypes = {
     url: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,

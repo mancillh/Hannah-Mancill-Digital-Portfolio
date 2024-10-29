@@ -1,5 +1,7 @@
+// Styles for Footer
 import '../styles/Footer.css';
 
+// Renders Footer Component
 export default function Footer() {
     return (
         <footer>

@@ -1,5 +1,8 @@
+// Styles for Header
 import Navigation from './Navigation';
 import '../styles/Header.css';
+
+// Renders Header Component
 export default function Header() {
     return (
         <>

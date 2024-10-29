@@ -1,6 +1,7 @@
 // import Project from "../components/Project";
 // import { Row, Col } from 'react-bootstrap';
 
+// Renders Back End Portfolio
 export default function BackEndWork() {
 return (
         <>

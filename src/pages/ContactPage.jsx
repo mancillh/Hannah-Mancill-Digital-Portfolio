@@ -1,12 +1,16 @@
+// Styling for Contact Form
 import '../styles/Contact.css';
+// Sweet Alert NPM Package to give a really cool looking success confirmation when user submits form
 import Swal from 'sweetalert2'
 
+// Renders Contact Form
 export default function Contact() {
 
     const onSubmit = async (event) => {
+        //Don't reload page when user submits form
         event.preventDefault();
         const formData = new FormData(event.target);
-
+        // necessary for form to go to my email inbox - From Web 3 Forms (https://web3forms.com/)
         formData.append("access_key", "ef666a83-e9bb-473c-bee9-afd5966670be");
 
         const object = Object.fromEntries(formData);
@@ -21,6 +25,7 @@ export default function Contact() {
             body: json
         }).then((res) => res.json());
 
+        //Contents of Success alert from Sweet Alert (https://sweetalert2.github.io/)
         if (res.success) {
             Swal.fire({
                 title: "Success!",

@@ -1,6 +1,9 @@
+// Importing Project Card Component
 import Project from "../components/Project";
+// Importing Bootstrap Components
 import { Row, Col } from 'react-bootstrap';
 
+// Render Front End Section of Portfolio
 export default function FrontEndWork() {
     return (
         <>
