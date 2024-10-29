@@ -10,7 +10,7 @@ export default function AboutPage() {
             <Container>
                 <Row>
                     <Col lg={2}>
-                    <img className="aboutPhoto" src="src\assets\picture of H Mancill.png" alt="picture of Hannah Mancill"></img>
+                    <img className="aboutPhoto" src="/assets/picture of H Mancill.png" alt="picture of Hannah Mancill"></img>
                     </Col>
                     <Col lg={10}>
                     <p className="about">Hi! Welcome to a website I proudly designed.</p>

@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <>
             <Navigation />
-            <img className='cover-image' src='src/assets/cover-image.png'></img>
+            <img className='cover-image' src='/assets/cover-image.png' alt='abstract pink and blue paint drip'></img>
         </>
     )
 }  
