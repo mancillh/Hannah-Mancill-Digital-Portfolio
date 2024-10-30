@@ -18,7 +18,7 @@ export default function AboutPage() {
                     <Col lg={9}>
                     <p className="about">Hi! Welcome to a website I proudly designed.</p>
 
-                        <p className="about">I&#39;m working toward a certificate in web development through Rice University which I will earn Monday, October 28, 2024!
+                        <p className="about">I earned a certificate in full-stack web development through Rice University in October 2024!
                             I hope to become a full stack developer and have worked with Node, Express, MongoDB, SQL, jQuery, JavaScript, HTML and
                             CSS. In addition, I have worked with JEST for testing and Handlebars, React, Semantic UI and the Bootstrap and Bulma CSS frameworks.</p>
 
