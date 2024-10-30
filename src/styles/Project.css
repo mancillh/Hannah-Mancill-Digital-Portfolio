@@ -22,6 +22,16 @@
     border: 1px solid black;
 }
 
+.card .card-video{
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+
 .card .card-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
