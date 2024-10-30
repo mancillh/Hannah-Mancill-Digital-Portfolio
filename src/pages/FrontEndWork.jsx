@@ -13,10 +13,10 @@ export default function FrontEndWork() {
                     <Col>
                         <Project
                             projectName="Mood Setter - Group Project"
-                            url="https://mancillh.github.io/Personal-Blog/"
+                            url="https://mancillh.github.io/Mood-Setter/"
                             screenshotDescription="screenshot of Mood Setter Project Page"
                             imgSrc="/assets/mood setter screenshot.png"
-                            githubRepo="https://mancillh.github.io/Mood-Setter/"
+                            githubRepo="https://github.com/mancillh/Mood-Setter"
                         />
                     </Col>
                     <Col>
@@ -45,7 +45,7 @@ export default function FrontEndWork() {
                             url="https://mancillh.github.io/Personal-Blog/"
                             screenshotDescription="screenshot of Personal Blog Landing Page"
                             imgSrc="/assets/blog form landing page.png"
-                            githubRepo="https://github.com/mancillh/Hannah-Mancill-Digital-Portfolio"
+                            githubRepo="https://github.com/mancillh/Personal-Blog"
                         />
                     </Col>
                     <Col>
