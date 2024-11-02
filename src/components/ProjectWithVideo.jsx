@@ -8,7 +8,7 @@ export default function ProjectWithVideo(props) {
     return (
         <div className="card">
             
-              <video className="card-video card-img-top" src={props.vidSrc} autoPlay loop controls></video>
+              <video className="card-video card-img-top" src={props.vidSrc} loop controls></video>
            
           <h2 className="card-title">{props.projectName}</h2>
           <a href={props.githubRepo}><button className="button">View Code</button></a>
