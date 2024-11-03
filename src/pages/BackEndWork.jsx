@@ -11,7 +11,7 @@ export default function BackEndWork() {
                     <Col>
                         <ProjectWithVideo
                             projectName="Social Network API"
-                            vidSrc="../assets/videos/READ ME Generator Walkthrough.mp4"
+                            vidSrc="../assets/videos/Social Network API Walkthrough.mp4"
                             githubRepo="https://github.com/mancillh/Social-Network-API"
                         />
                     </Col>

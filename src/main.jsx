@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import FrontEndWork from './pages/FrontEndWork.jsx';
 import BackEndWork from './pages/BackEndWork.jsx';
+import FullStackWork from './pages/FullStackWork.jsx';
 
 // Defines the accessible routes and which components respond to which URL
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: 'back-end',
         element: <BackEndWork />,
+      },
+      {
+        path: 'full-stack',
+        element: <FullStackWork />,
       },
     ],
   },
