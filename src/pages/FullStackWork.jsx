@@ -7,63 +7,45 @@ import { Row, Col } from 'react-bootstrap';
 export default function FrontEndWork() {
     return (
         <>
-            <h2>Front End Projects</h2>
+            <h2>Full Stack Projects</h2>
             <div className='container'>
                 <Row>
                     <Col>
                         <Project
-                            projectName="Mood Setter - Group Project"
-                            url="https://mancillh.github.io/Mood-Setter/"
-                            screenshotDescription="screenshot of Mood Setter Project Page"
-                            imgSrc="/assets/mood setter screenshot.png"
-                            githubRepo="https://github.com/mancillh/Mood-Setter"
+                            projectName="Neighborhood Jobs - Group Project"
+                            url="https://neighborhood-jobs.onrender.com"
+                            screenshotDescription="screenshot of Neighborhood Jobs"
+                            imgSrc="/assets/Neighborhood Jobs homepage.png"
+                            githubRepo="https://github.com/mancillh/Job-Board"
                         />
                     </Col>
                     <Col>
                         <Project
-                            projectName="Weather Dashboard"
-                            url="https://mancillh.github.io/Weather-Dashboard/"
-                            screenshotDescription="screenshot of Weather Dashboard"
-                            imgSrc="/assets/Weather Dashboard screenshot.png"
-                            githubRepo="https://github.com/mancillh/Weather-Dashboard"
-                        />
-                    </Col>
-                    <Col>
-                        <Project
-                            projectName="Kanban Task Board"
-                            url="https://mancillh.github.io/Task-Board/"
-                            screenshotDescription="screenshot of Kanban Task Board"
-                            imgSrc="/assets/Task-Board.png"
-                            githubRepo='https://github.com/mancillh/Task-Board/'
+                            projectName="Reel-Bites - Group Project"
+                            url="https://reel-bites.onrender.com"
+                            screenshotDescription="screenshot of Reel Bites"
+                            imgSrc="/assets/Reel Bites Homepage.png"
+                            githubRepo="https://github.com/davidVillarreal03/super-team-project-2"
                         />
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                <Col>
                         <Project
-                            projectName="Personal Blog"
-                            url="https://mancillh.github.io/Personal-Blog/"
-                            screenshotDescription="screenshot of Personal Blog Landing Page"
-                            imgSrc="/assets/blog form landing page.png"
-                            githubRepo="https://github.com/mancillh/Personal-Blog"
+                            projectName="Tech Blog"
+                            url="https://mancill-tech-blog.onrender.com"
+                            screenshotDescription="screenshot of Tech Blog"
+                            imgSrc="/assets/Tech Blog Screenshot.png"
+                            githubRepo='https://github.com/mancillh/Tech-Blog'
                         />
                     </Col>
                     <Col>
                         <Project
-                            projectName="Employee Payroll Tracker"
-                            url="https://mancillh.github.io/EmployeePayrollTracker/"
-                            screenshotDescription="screenshot of Employee Payroll Tracker"
-                            imgSrc="/assets/Employee Payroll Tracker.JPG"
-                            githubRepo="https://mancillh.github.io/EmployeePayrollTracker/"
-                        />
-                    </Col>
-                    <Col>
-                        <Project
-                            projectName="Website Refactor"
-                            url="https://mancillh.github.io/Website-Refactor/"
-                            screenshotDescription="screenshot of Horiseon Landing Page"
-                            imgSrc="/assets/websiterefactor.JPG"
-                            githubRepo="https://github.com/mancillh/Website-Refactor"
+                            projectName="Note Taker"
+                            url="https://note-taker-0laq.onrender.com"
+                            screenshotDescription="screenshot of Note Taker"
+                            imgSrc="/assets/note-taker landing page.png"
+                            githubRepo="https://github.com/mancillh/Note-Taker"
                         />
                     </Col>
                 </Row>
