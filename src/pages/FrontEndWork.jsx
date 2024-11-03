@@ -8,8 +8,17 @@ export default function FrontEndWork() {
     return (
         <>
             <h2>Front End Projects</h2>
-            <div className='container'>
+            <div className='container overflow-hidden'>
                 <Row>
+                    <Col>
+                        <Project
+                            projectName="Website for Rachel Mancill, Quilter"
+                            url="https://rachelmancillinteriorsandquilting.netlify.app"
+                            screenshotDescription="screenshot of Rachel Mancill's Home Page"
+                            imgSrc="/assets/rachel mancill interiors and quilting screenshot.png"
+                            githubRepo="https://github.com/mancillh/Rachel-Mancill-Interiors-and-Quilting"
+                        />
+                    </Col>
                     <Col>
                         <Project
                             projectName="Mood Setter - Group Project"
@@ -28,6 +37,8 @@ export default function FrontEndWork() {
                             githubRepo="https://github.com/mancillh/Weather-Dashboard"
                         />
                     </Col>
+                </Row>
+                <Row>
                     <Col>
                         <Project
                             projectName="Kanban Task Board"
@@ -37,8 +48,6 @@ export default function FrontEndWork() {
                             githubRepo='https://github.com/mancillh/Task-Board/'
                         />
                     </Col>
-                </Row>
-                <Row>
                     <Col>
                         <Project
                             projectName="Personal Blog"
@@ -57,6 +66,8 @@ export default function FrontEndWork() {
                             githubRepo="https://mancillh.github.io/EmployeePayrollTracker/"
                         />
                     </Col>
+                </Row>
+                <Row className='bottom-row'>
                     <Col>
                         <Project
                             projectName="Website Refactor"
@@ -66,6 +77,8 @@ export default function FrontEndWork() {
                             githubRepo="https://github.com/mancillh/Website-Refactor"
                         />
                     </Col>
+                    <Col />
+                    <Col />
                 </Row>
             </div >
         </>

@@ -39,7 +39,7 @@ export default function BackEndWork() {
                         />
                     </Col>
                 </Row>
-                <Row>
+                <Row className='bottom-row'>
                     <Col>
                         <ProjectWithVideo
                             projectName="Professional READ ME Generator"

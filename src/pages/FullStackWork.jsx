@@ -29,7 +29,7 @@ export default function FrontEndWork() {
                         />
                     </Col>
                 </Row>
-                <Row>
+                <Row className='bottom-row'>
                 <Col>
                         <Project
                             projectName="Tech Blog"
