@@ -13,10 +13,10 @@ export default function AboutPage() {
             <Container>
                 <Row>
                     <Col lg={3}>
-                    <img className="aboutPhoto img-fluid" src="/assets/picture of H Mancill.png" alt="picture of Hannah Mancill"></img>
+                    <img className="aboutPhoto img-fluid" src="/assets/H_Mancill_professional_headshot-removebg-preview.png" alt="picture of Hannah Mancill"></img>
                     </Col>
                     <Col lg={9}>
-                    <p className="about">Hi! Welcome to a website I proudly designed.</p>
+                    <p className="about" id="about-first-paragraph">Hi! Welcome to a website I proudly designed.</p>
 
                         <p className="about">I earned a certificate in full-stack web development through Rice 
                             University in October 2024! I have experience with Git, Node, Express, MongoDB, 

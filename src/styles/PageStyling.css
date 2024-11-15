@@ -24,5 +24,32 @@ h2 {
 
 /* About Page  */
 .aboutPhoto {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
+    height: 80%;
+    object-fit: contain;
+    border-radius: 3%;
 }
+
+@media only screen and (max-width: 1199px) {
+    .aboutPhoto {
+        width: 100%;
+        display: fixed;
+        margin-top: 0;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .aboutPhoto {
+        width: 100%;
+        margin: auto;
+        object-fit: contain;
+    }
+
+    #about-first-paragraph {
+        margin-top: -20%;
+    }
+}
+
